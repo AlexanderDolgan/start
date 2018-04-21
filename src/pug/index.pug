@@ -2,9 +2,25 @@ include partials/head
 body
 	#site-wrapper
 		section#site-header
-			include partials/site-header/site-header
+			nav.main-nav
+				//- mobile navigarion full screen 
+				include partials/site-header/nav-mob
+				#nav-open-btn.nav-open-btn
+				include partials/site-header/nav-screen
 
 		section#site-main
+			.info
+				.info-logo
+					img( src="img/assets/brand/logo.svg" alt="Megobari logo")
+				.info-text
+					h2 Гастробар
+				.info-address
+					address
+						span Маросейка, 15
+						span т. 8905 7004007 и 8964 7004007
+						span График работы:
+						span ежедневно с 11:00 до 00:00
+
 			
 		section#site-footer
 			include partials/site-footer

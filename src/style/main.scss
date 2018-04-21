@@ -5,6 +5,11 @@ Author URI:
 Version: 1.0
 */
 
+@font-face {
+	font-family: 'girottbold';
+	src: url('/fonts/girott_bold.otf');
+}
+
 //settings-var
 @import "util/settings";
 @import "util/mixin";
@@ -23,3 +28,4 @@ Version: 1.0
 
 //states
 @import "states/index";
+

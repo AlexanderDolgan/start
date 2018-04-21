@@ -85,19 +85,7 @@ h2 {
 	@media (min-width: $b-medium) {
 		font-size: 32px;
 		margin: 6rem 0;
-		
 	}
-	&:before {
-    content: attr(data);
-    position: absolute;
-    left: -.03em;
-    top: .03em;
-    color: #ccc;
-    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAFUlEQVQIW2NkQAKMIPZ/IGAEAWQZAE5lBATogF4qAAAAAElFTkSuQmCC);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    z-index: -1;
-  }
 }
 
 //Bloquote

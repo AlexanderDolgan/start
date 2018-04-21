@@ -65,6 +65,10 @@
 		& span {
 			display: block;
 			font-size: 2rem;
+			& a {
+				color: ac(text);
+				padding-right: 1rem;
+			}
 		}
 	}
 }

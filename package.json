@@ -1,0 +1,19 @@
+{
+  "name": "megobari",
+  "version": "1.0.0",
+  "description": "web megobaru",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderDolgan/megobari.git"
+  },
+  "author": "Alexander Dolgan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexanderDolgan/megobari/issues"
+  },
+  "homepage": "https://github.com/AlexanderDolgan/megobari#readme"
+}

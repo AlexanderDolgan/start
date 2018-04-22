@@ -23,9 +23,7 @@
 //-----------
 // navigation
 //-----------
-.main-nav {
-	display: none;
-}
+
 
 //-----------
 // social
@@ -45,7 +43,7 @@
 
 .info {
 	margin: 0 auto;
-	margin-top: 15rem;
+	margin-top: 6rem;
 	height: 40rem;
 	text-align: center;
 	&-logo {
@@ -56,9 +54,6 @@
 	}
 	&-text {
 		text-transform: uppercase;
-		& h2 {
-			letter-spacing: .5rem;
-		}
 	}
 	&-address {
 		margin: 0 auto;
@@ -66,15 +61,13 @@
 			display: block;
 			font-size: 2rem;
 			& a {
+				display: block;
 				color: ac(text);
 				padding-right: 1rem;
 			}
 		}
-	}
-}
-
-@media (min-width: $b-large) {
-	.info {
-		margin-top: 10rem;
+		& .time {
+			margin-top: 2rem;
+		}
 	}
 }

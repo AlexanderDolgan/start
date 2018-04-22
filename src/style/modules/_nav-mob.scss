@@ -14,17 +14,18 @@
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: space-around;
-	list-style: none;
-	padding: 2rem	0;
-	margin: 0;
 	width: 100%;
+	list-style: none;
+	padding: 2rem 0;
+	margin: 0;
 	& li {
-		display: block;
+		text-align: center;
+		width: 100%;
 		& a {
 			display: block;
 			padding: 2rem;
 			color: ac(text);
-			font-size: 3rem;
+			font-size: 6rem;
 			width: 100%;
 		}
 	}
@@ -96,15 +97,17 @@
 		opacity: 0;
 	}
 	100% {
-		margin-left: 2rem;
+		margin-left: 0;
 		opacity: 1;
 	}
 }
 
 // nav open btn
 .nav-open-btn {
-	@include retina-sprite($bars-group);
+	@include retina-sprite($ic-menu-group);
 	cursor: pointer;
+	float: left;
+	margin: 2rem;
 }
 
 @media (min-width: $b-xlarge) {
@@ -117,7 +120,7 @@
 	@include retina-sprite($ic-close-group);
 	cursor: pointer;
 	position: absolute;
-	right: 2rem;
+	left: 2rem;
 	top: 2rem;
 	transition: transform .3s ease-in-out;
 	z-index: 999999;

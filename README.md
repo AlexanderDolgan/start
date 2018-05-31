@@ -1,3 +1,35 @@
+##gulp commands
+
+###pug html
+gulp pug:build
+(pretty: true)
+
+###html
+gulp html:build
+(rigger() include file - //= file path)
+
+###js
+gulp js:build
+sourcemaps/suffix .min/uglify
+
+###css
+gulp style:build
+sourcemaps/sass/autoprefixer/rename .min/cleancss ie8/
+
+###img
+gulp img:build
+imagemin
+
+###sprite
+gulp sprite:build
+spritesmith
+retima filter / *2@.png
+
+###fonts
+gulp fonts:build
+
+
+
 # start
 
 mkdir project name

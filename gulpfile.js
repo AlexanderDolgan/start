@@ -73,7 +73,7 @@ var config = {
 	//tunnel: true,
 	host: 'localhost',
 	port: 8888,
-	logPrefix: "gmet"
+	logPrefix: "start"
 };
 
 

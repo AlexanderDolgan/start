@@ -2,33 +2,65 @@
 
 ### pug html
 gulp pug:build
+
 (pretty: true)
 
 ### html
 gulp html:build
+
 (rigger() include file - //= file path)
 
 ### js
 gulp js:build
+
 sourcemaps/suffix .min/uglify
 
 ### css
 gulp style:build
+
 sourcemaps/sass/autoprefixer/rename .min/cleancss ie8/
 
-### img
-gulp img:build
+### image
+gulp image:build
+
 imagemin
 
 ### sprite
 gulp sprite:build
+
 spritesmith
 retima filter / *2@.png
 
 ### fonts
 gulp fonts:build
 
+### watch
+gulp watch
 
+pug, css, js, image, sprite, fonts
+
+
+### web server
+gulp webserver
+
+browserSync
+
+//config for the web server
+var config = {
+	server: {
+		baseDir: "./build"
+	},
+	//tunnel: true,
+	host: 'localhost',
+	port: 8888,
+	logPrefix: "start"
+};
+
+### default
+
+gulp default
+
+build, webserver, watch
 
 # start
 

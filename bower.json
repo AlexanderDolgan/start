@@ -1,6 +1,6 @@
 {
-  "name": "megobari",
-  "description": "web megobaru",
+  "name": "start",
+  "description": "web start",
   "main": "index.js",
   "authors": [
     "Alexander Dolgan"

@@ -1,31 +1,31 @@
-##gulp commands
+## gulp commands
 
-###pug html
+### pug html
 gulp pug:build
 (pretty: true)
 
-###html
+### html
 gulp html:build
 (rigger() include file - //= file path)
 
-###js
+### js
 gulp js:build
 sourcemaps/suffix .min/uglify
 
-###css
+### css
 gulp style:build
 sourcemaps/sass/autoprefixer/rename .min/cleancss ie8/
 
-###img
+### img
 gulp img:build
 imagemin
 
-###sprite
+### sprite
 gulp sprite:build
 spritesmith
 retima filter / *2@.png
 
-###fonts
+### fonts
 gulp fonts:build
 
 
